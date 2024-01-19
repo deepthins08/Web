@@ -1,0 +1,91 @@
+.container{
+
+    margin: 20px;
+    border: 10px double purple; 
+    padding: 5px;
+    border-radius: 50px;
+    background-color: blanchedalmond;
+    background-image: url("https://www.1800flowers.com/blog/wp-content/uploads/2021/03/Tulip-Header2-1024x576.jpg");
+    background-position: 100px;
+}
+.container1{
+
+    border: 10px dashed purple;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    background-color: antiquewhite;
+    background-image: url("https://darceyflowers.ae/wp-content/uploads/2021/12/Birthday-Flower-Ideas-for-Daughter.webp");
+    background-position: 1px;                                               
+}
+
+body{
+    background-image: url("https://images8.alphacoders.com/132/1327993.png");
+    background-repeat: no-repeat;
+   
+}
+
+#p1{
+
+    color: rgb(134, 47, 222);font-size: 100px;
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: bolder;
+}
+a:link{
+
+    color: blueviolet;
+   
+}
+a:hover{
+    color: chocolate;
+}
+a:visited{
+    color:blue;
+}
+
+.paragraph{
+
+    color:blue;
+    border: 2px dotted purple;
+    border-radius: 10px;
+    width:fit-content;
+    margin-top: -3px;
+    margin-bottom: -3px;
+    padding-top: 2px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    background-color: blanchedalmond;
+
+}
+
+.paragraph-container{
+
+    width: 150px;
+    height: 90px;
+  
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+}
+
+table,tr,th{
+    border-color: crimson;
+    color: brown;
+}
+
+td,th{
+    color:black
+}
+
+/* in order to use this universal selctor we dont have to apply other selectors then only it wil work */
+*{
+    color:blueviolet
+}
