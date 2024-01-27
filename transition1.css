@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(231, 216, 224);
+    transform: translate(30px,50px);
+}
+
+.div{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    animation-name: animation;
+    animation-duration: 1s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    /* animation: mymove 5s infinite; */
+}
+
+@keyframes animation{
+    /* from{
+        background-color: darkorange;
+    }
+
+    to{
+        background-color: rgb(234, 17, 151);
+    } */
+
+    0%{background-color: black; top:0px; left:0px; }
+    25%{background-color: rgb(199, 248, 23);top:0px;left:200px;}
+    50%{background-color: rgb(225, 32, 177);top:200px;left:200px;}
+    75%{background-color: rgb(71, 181, 255);top:200px;left:0px}
+    100%{background-color: red;top:0px;left: 0px;}
+}
+
+p {
+    display: none;
+    background-color: rgb(145, 17, 224);
+    padding: 20px;
+   
+  }
+  
+  .div2:hover p {
+    display: block;
+  }
+
+  .div2{
+    margin-top: 300px;
+  }
+
+   
