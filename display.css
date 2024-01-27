@@ -1,0 +1,40 @@
+/* span{
+
+    background-color: bisque;
+    
+}
+
+.display{
+
+    display: inline-block;
+    border: 2px solid purple;
+} */
+
+.decoration{
+    text-decoration-line:line-through;
+    text-decoration-color: blueviolet;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 0.4rem;
+
+    /* 1rem=100px; */
+}
+
+marquee{
+
+    color: rgb(238, 231, 244);
+    font-weight: bold;
+}
+
+.marquee{
+
+    background-color:rgb(243, 11, 185);
+}
+
+img{
+    width:100px;
+    height: 100px;
+}
+
+body{
+    background-color: deepskyblue;
+}
